@@ -1,0 +1,141 @@
+.ad {
+    height: 30px;
+    background-color: blue;
+    margin-top: 0px;
+    margin-bottom: 60px;
+
+    color: white;
+
+}
+
+iframe {
+    float: left;
+}
+
+.top {
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    margin: 5px 7em 5px;
+
+}
+
+#header {
+    background-image: url("https://alumni.mnit.ac.in/assets/images/vltc.png");
+   
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+img {
+    float: left;
+
+}
+
+
+.footer {
+    background-color: rgb(28, 28, 110);
+    height: 5em;
+    color: blanchedalmond;
+
+
+
+}
+
+.mar {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+.foot {
+    line-height: 30px;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    cursor: grab;
+    font-size: 1.5em;
+
+}
+
+#marg {
+    margin-left: 2em;
+    font-size: 1.3em;
+    margin-top: 2em;
+
+}
+
+.am {
+    font-size: 1.5em;
+    color: white;
+    background-color: blue;
+}
+
+.body {
+    background-color: beige;
+    margin: 0px 0px 0px 0px;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 3%;
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+#bod {
+    border-radius: 5%;
+    border: 5px solid black;
+    padding: 0.5%;
+
+}
+
+.announce {
+    margin-top: 2em;
+}
+
+.blink1 {
+    animation: blink-animation 2.5s steps(5, start) infinite;
+    -webkit-animation: blink-animation 2.5s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+.blink2 {
+    animation: blink-animation 4.5s steps(5, start) infinite;
+    -webkit-animation: blink-animation 4.5s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
